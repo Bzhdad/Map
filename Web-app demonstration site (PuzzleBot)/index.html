@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PuzzleBot :// Web-app demonstration</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+    <!-- Start connecting the scripts -->
+
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="https://puzzlebot.top/webapp.js"></script>
+
+    <!-- End connecting the scripts -->
+  </head>
+  <body>
+    <div class="buttons-common-wrapper">
+      <!-- <button class="btn text">Площадь</button>
+      <button class="btn text">Рынок</button> -->
+      <div class="btn" onclick="PuzzleBot.sendCommand('Площадь');">
+        <p class="text">Площадь</p>
+      </div>
+
+      <div class="btn" onclick="PuzzleBot.sendCommand('Торговый квартал');">
+        <p class="text">Торговый</p>
+      </div>
+
+      <div class="btn" onclick="PuzzleBot.sendCommand('Боевой квартал');">
+        <p class="text">Боевой</p>
+      </div>
+
+      <div class="btn" onclick="PuzzleBot.sendCommand('Встреча с стражником');">
+        <p class="text">Ворота</p>
+      </div>
+
+      <div class="btn" onclick="PuzzleBot.sendCommand('Госпиталь');">
+        <p class="text">Госпиталь</p>
+      </div>
+    </div>
+  </body>
+</html>
